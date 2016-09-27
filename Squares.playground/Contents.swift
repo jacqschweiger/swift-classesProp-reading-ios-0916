@@ -36,10 +36,10 @@ class Square2 {
     var lengthOfSide: Double
     var area: Double {
         get {
-            return lengthOfSide * lengthOfSide
+            return lengthOfSide * lengthOfSide //with return when called for area
         }
         set {
-            lengthOfSide = sqrt(newValue)
+            lengthOfSide = sqrt(newValue) // will set when actually called upon, used to reset the lengthOfSide given a new area
         }
     }
 
